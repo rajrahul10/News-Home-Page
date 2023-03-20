@@ -1,60 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <title>News Home Page</title>
 </head>
+
 <body>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+  <div class="container">
 
-  The Bright Future of Web 3.0?
+    <div class="top">
+      <div class="logo">W.</div>
+      <div class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">Home</a> </li>
+          <li class="nav-item"><a href="#" class="nav-link">New</a> </li>
+          <li class="nav-item"><a href="#" class="nav-link">Popular</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Trending</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Categories</a></li>
+        </ul>
+      </div>
+    </div>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+    <div class="middle">
+      <div class="middle-content">
+        <div class="img-box">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="Banner Image" class="banner-img">
+        </div>
 
-  Read more
+        <div class="web-3">
+          <h1 class="heading-1">The Bright Future of Web 3.0?</h1>
+          <div class="web-3-content">
+            <p class="web-3-text">We dive into the next evolution of the web that claims to put the power of the platforms
+              back into the hands of the
+              people. But is it really fulfilling its promise?
+            </p>
+            <button class="btn read-more">Read More</button>
+          </div>
+        </div>
+      </div>
 
-  New 
+      <aside>
+        <h2 class="heading-2">New</h2>
+        <div class="new-content">
+          <h3 class="heading-3">Hydrogen VS Electric Cars</h3>
+          <div class="new-text">Will hydrogen-fueled cars ever catch up to EVs?</div>
+        </div>
+        <hr>
+        <div class="new-content">
+          <h3 class="heading-3">The Downsides of AI Artistry</h3>
+          <div class="new-text">What are the possible adverse effects of on-demand AI image generation?</div>
+        </div>
+        <hr>
+        <div class="new-content">
+          <h3 class="heading-3">Is VC Funding Drying Up?</h3>
+          <div class="new-text">Private funding by VC firms is down 50% YOY. We take a look at what that means.</div>
+        </div>
+      </aside>
+    </div>
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
+    <div class="bottom">
+      <div class="bottom-content">
+        <img src="/assets/images/image-retro-pcs.jpg" alt="Retro Pcs Image" class="bottom-content-img">
+        <div class="bottom-content-text">
+          <h2 class="heading-2">01</h2>
+          <h3 class="heading-3">Reviving Retro PCs</h3>
+          <p class="bottom-text">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
 
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
+      <div class="bottom-content">
+        <img src="/assets/images/image-top-laptops.jpg" alt="Laptops Image" class="bottom-content-img">
+        <div class="bottom-content-text">
+          <h2 class="heading-2">02</h2>
+          <h3 class="heading-3">Top 10 Laptops of 2022</h3>
+          <p class="bottom-text">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
 
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="bottom-content">
+        <img src="/assets/images/image-gaming-growth.jpg" alt="Gaming Growth Image" class="bottom-content-img">
+        <div class="bottom-content-text">
+          <h2 class="heading-2">03</h2>
+          <h3 class="heading-3">The Growth of Gaming</h3>
+          <p class="bottom-text">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
+
 </html>
